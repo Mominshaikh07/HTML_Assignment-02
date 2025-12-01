@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  padding: 20px;
+  font-family: Arial;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 15px;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+}
+@media(max-width:900px){
+  .gallery { grid-template-columns: repeat(2,1fr); }
+}
+@media(max-width:600px){
+  .gallery { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<div class="gallery">
+ <img src="image.png" width="150" border="2"></a>
+<img src="josh-berquist-_4sWbzH5fp8-unsplash (1).jpg"height=570px width="150" border="2"></a>
+<img src="campbell-3ZUsNJhi_Ik-unsplash.jpg"height=570px width="150" border="2">
+<img src="joey-banks-YApiWyp0lqo-unsplash.jpg"height=570px width="150" border="2">
+<img src="olav-tvedt--oVaYMgBMbs-unsplash.jpg"height=570px width="150" border="2">
+<img src="ville-kaisla-HNCSCpWrVJA-unsplash.jpg"height=570px width="150" border="2">
+</div>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #e9f2ff;
+}
+.dashboard {
+  display: grid;
+  gap: 20px;
+}
+.temp {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 40px;
+}
+.metrics {
+  display: flex;
+  gap: 20px;
+}
+.metric {
+  background: #fff;
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+@media(max-width:700px){
+  .metrics { flex-direction: column; }
+}
+</style>
+</head>
+<body>
+
+<div class="dashboard">
+  <div class="temp">24°C</div>
+
+  <div class="metrics">
+    <div class="metric">Humidity: 60%</div>
+    <div class="metric">Wind: 10km/h</div>
+    <div class="metric">Forecast: Sunny</div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+  display: flex;
+  font-family: Arial;
+}
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background: wheat;
+  color: white;
+  position: sticky;
+  top: 0;
+  padding: 20px;
+}
+.content {
+  padding: 20px;
+  flex: 1;
+}
+@media(max-width:700px){
+  body { flex-direction: column; }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>Sidebar</h2>
+ <a href="home.html"><p>Home</p></a>
+    <a href="about.html"><p>Contact</p></a>
+</div>
+
+<div class="content">
+  <h1>THIS IS ASSIGNMENT FROM OUR COLLEGE</h1>
+  <p>Responsive sidebar layout.</p>
+</div>
+
+</body>
+</html>

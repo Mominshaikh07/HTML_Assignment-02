@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial;
+  display: flex;
+  gap: 20px;
+}
+.article {
+  flex: 3;
+}
+.article img {
+  width: 100%;
+  border-radius: 10px;
+}
+.sidebar {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+@media(max-width:800px){
+  body { flex-direction: column; }
+}
+</style>
+</head>
+<body>
+
+<div class="article">
+  <h1>Blog Title</h1>
+  <img src="ville-kaisla-HNCSCpWrVJA-unsplash.jpg">
+  <p>Audi is a German luxury automobile manufacturer known for its advanced engineering, elegant design, and cutting-edge technology. Founded over a century ago, the brand has built a reputation for producing cars that combine performance with comfort, often recognized by its iconic four-ring logo. Audi vehicles are celebrated for their Quattro all-wheel-drive system, smooth driving experience, and high-quality interiors. From sporty sedans and powerful SUVs to innovative electric models, Audi continues to focus on innovation, safety, and premium craftsmanship, making it one of the leading names in the global automotive industry.
+</p>
+</div>
+
+<div class="sidebar">
+  <h3>Related Posts</h3>
+  <p>1.   Quattro Technology: Audi’s Quattro all-wheel-drive system is one of its most famous innovations, offering better traction, stability, and performance in all road conditions.</p>
+  <p>2.  Electric Vehicles: Audi’s electric lineup, called Audi e-tron, focuses on sustainable mobility while maintaining luxury features and strong performance.</p>
+  <p>3.  Motorsport Heritage: Audi has a strong motorsport legacy, especially in rally racing and endurance events, where it proved the power and reliability of its engineering.</p>
+</div>
+
+</body>
+</html>
